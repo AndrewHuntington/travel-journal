@@ -1,3 +1,7 @@
+import fuji from '../images/fuji.png';
+import operahouse from '../images/operahouse.png';
+import geirangerfjord from '../images/geirangerfjord.png';
+
 export const data = [
   {
     title: 'Mount Fuji',
@@ -7,7 +11,7 @@ export const data = [
     endDate: '24 Jan, 2021',
     description:
       'Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.',
-    imageUrl: 'https://unsplash.com/photos/WLxQvbMyfas',
+    image: fuji,
   },
   {
     title: 'Sydney Opera House',
@@ -17,7 +21,7 @@ export const data = [
     endDate: '28 Jun, 2021',
     description:
       "The Sydney Opera House is a multi-venue performing arts centre in Sydney. Located on the banks of the Sydney Harbour, it is often regarded as one of the 20th century's most famous and distinctive buildings",
-    imageUrl: 'https://unsplash.com/photos/JmuyB_LibRo',
+    image: operahouse,
   },
   {
     title: 'Geirangerfjord',
@@ -27,6 +31,6 @@ export const data = [
     endDate: '18 Nov, 2021',
     description:
       'The Geiranger Fjord is a fjord in the Sunnmøre region of Møre og Romsdal county, Norway. It is located entirely in the Stranda Municipality.',
-    imageUrl: 'https://unsplash.com/photos/3PeSjpLVtLg',
+    image: geirangerfjord,
   },
 ];
