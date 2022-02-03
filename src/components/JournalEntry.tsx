@@ -11,14 +11,14 @@ export type JournalEntryProps = {
     description: string;
     image: string;
   };
-  bottomBorder: boolean;
-  padTop: boolean;
+  bottomBorder?: boolean;
+  padTop?: boolean;
 };
 
 export default function JournalEntry({
   entry,
-  bottomBorder,
-  padTop,
+  bottomBorder = false,
+  padTop = false,
 }: JournalEntryProps) {
   return (
     <div
@@ -34,18 +34,28 @@ export default function JournalEntry({
         />
       </div>
 
-      <div>
-        <img className=' h-3' src={marker} alt='' />
-        <p>{entry.location}</p>
-        <a href={entry.googleMapsUrl} target='_blank' rel='noopener noreferrer'>
-          View on Google Maps
-        </a>
-        <h2>{entry.title}</h2>
-        <p>
+      <div className='mt-5'>
+        <div className='flex items-center text-[10.25px] leading-3 mb-1'>
+          <img className=' h-3 mr-1' src={marker} alt='' />
+          <p className='tracking-widest mr-3'>{entry.location.toUpperCase()}</p>
+          <a
+            href={entry.googleMapsUrl}
+            target='_blank'
+            rel='noopener noreferrer'
+            className='text-[#918E9B] underline'
+          >
+            View on Google Maps
+          </a>
+        </div>
+
+        <h2 className='font-bold text-2xl mb-4'>{entry.title}</h2>
+        <p className='font-bold text-[10.25px] mb-2.5'>
           {entry.startDate} - {entry.endDate}
         </p>
-        <div className='w-[326px]'>
-          <p className=' font-medium text-[10px]'>{entry.description}</p>
+        <div className='w-[326px] pr-1'>
+          <p className=' font-medium text-[10.25px] leading-4 text-[#2B283A]'>
+            {entry.description}
+          </p>
         </div>
       </div>
     </div>
