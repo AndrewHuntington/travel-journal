@@ -14,7 +14,7 @@ function App() {
   ));
 
   return (
-    <div className=' mt-8 w-[550px] h-[704px] border-2 border-solid border-gray-100 rounded-xl mx-auto shadow-xl'>
+    <div className=' mt-8 w-[550px] h-[704px] border-2 border-solid border-gray-100 rounded-xl mx-auto shadow-xl overflow-auto'>
       <TitleBar />
       {entries}
     </div>
