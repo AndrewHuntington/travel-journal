@@ -2,7 +2,7 @@
   "name": "travel-journal",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https:/andrewhuntington.github.io/travel-journal",
+  "homepage": "https://andrewhuntington.github.io/travel-journal",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
