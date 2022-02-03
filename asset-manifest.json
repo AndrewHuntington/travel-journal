@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/andrewhuntington.github.io/travel-journal/static/css/main.50412e8a.css",
+    "main.js": "/andrewhuntington.github.io/travel-journal/static/js/main.3c9df800.js",
+    "static/js/787.39019643.chunk.js": "/andrewhuntington.github.io/travel-journal/static/js/787.39019643.chunk.js",
+    "static/media/geirangerfjord.png": "/andrewhuntington.github.io/travel-journal/static/media/geirangerfjord.66f23fe47d7c67072d0b.png",
+    "static/media/operahouse.png": "/andrewhuntington.github.io/travel-journal/static/media/operahouse.71c2305415a602934f1a.png",
+    "static/media/fuji.png": "/andrewhuntington.github.io/travel-journal/static/media/fuji.03979b3a449e51c9fb3b.png",
+    "index.html": "/andrewhuntington.github.io/travel-journal/index.html",
+    "main.50412e8a.css.map": "/andrewhuntington.github.io/travel-journal/static/css/main.50412e8a.css.map",
+    "main.3c9df800.js.map": "/andrewhuntington.github.io/travel-journal/static/js/main.3c9df800.js.map",
+    "787.39019643.chunk.js.map": "/andrewhuntington.github.io/travel-journal/static/js/787.39019643.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50412e8a.css",
+    "static/js/main.3c9df800.js"
+  ]
+}
