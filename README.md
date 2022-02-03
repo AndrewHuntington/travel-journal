@@ -2,7 +2,7 @@
 
 My code for the solo project for section 2 of Scrimba's Learn React for Free course.
 
-## [Live Site](https://andrew.huntington.github.io/travel-journal/)
+## [Live Site](https://andrewhuntington.github.io/travel-journal/)
 
 # Screen Shot
 
